@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="width_exit_dlg">500dp</dimen>
+    <dimen name="height_exit_dlg">250dp</dimen>
+
+    <string name="ptx_launcher_name">@string/ptx_wireless_transefer</string>
+    <string name="ptx_wireless_transefer">无线快传</string>
+    <string name="ptx_notice_first">无需数据线，在设备之间快速传递图片、视频等文件！</string>
+    <string name="ptx_notice_wifi">WifI未连接，请打开Wifi并确保设备都在同一wifi环境下！</string>
+    <string name="ptx_notice_turn_on_exception">阿哦，服务开了个小差！</string>
+    <string name="ptx_notice_turn_on_succeeded">请在电脑浏览器中输入以上地址，并确保设备都在同一wifi环境下！</string>
+    <string name="ptx_turn_off">关闭快传</string>
+    <string name="ptx_turn_on">启动快传</string>
+    <string name="ptx_reset">稍后重试</string>
+    <string name="ptx_goto_settings">去设置</string>
+    <string name="ptx_keep_background">保持后台运行</string>
+    <string name="ptx_turn_off_instantly">立即关闭</string>
+    <string name="ptx_msg_is_turn_off_server">是否关闭无线快传服务？</string>
+    <string name="ptx_notif_title">无线快传正在运行</string>
+    <string name="ptx_notif_stop_text">停止服务</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="width_exit_dlg">600dp</dimen>
+    <dimen name="height_exit_dlg">250dp</dimen>
+
+
+    <string name="ptx_launcher_name">WirelessTransfer</string>
+    <string name="ptx_wireless_transefer">Wireless Transfer</string>
+    <!--无需数据线，在设备之间快速传文件，如图片、视频等文件-->
+    <string name="ptx_notice_first">Without data lines to transfer files quickly between devices, such as image, video, etc.</string>
+    <!--WifI未连接，请打开Wifi并确保设备都在同一wifi环境下-->
+    <string name="ptx_notice_wifi">Wifi is not connected, please turn on the Wifi and ensure that the devices are in the same WiFi environment.</string>
+    <!--阿哦，服务开了个小差~-->
+    <string name="ptx_notice_turn_on_exception">Ah oh, the devie has encountered an error.</string>
+    <!--请在电脑浏览器中输入以上地址，并确保设备都在同一wifi环境下-->
+    <string name="ptx_notice_turn_on_succeeded">Please enter the up address in your computer browser and make sure that the devices are in the same WiFi environment.</string>
+    <string name="ptx_turn_off">Turn off</string><!--关闭快传-->
+    <string name="ptx_turn_on">Turn on</string><!--开启快传-->
+    <string name="ptx_reset">Try again</string><!--重试-->
+    <string name="ptx_goto_settings">Open settings</string>
+    <string name="ptx_keep_background">Keep running background</string><!--保持后台运行-->
+    <string name="ptx_turn_off_instantly">Turn off immediately </string><!--立即关闭-->
+    <string name="ptx_msg_is_turn_off_server">Are you sure to turn off the wireless transfer service?</string><!--是否关闭无线快传服务？-->
+    <string name="ptx_notif_title">Wireless Transfer</string>
+    <string name="ptx_notif_stop_text">Stop server</string>
+</resources>

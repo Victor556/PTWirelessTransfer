@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ptx_largest_background"
+    android:orientation="vertical"
+    tools:context="com.putao.ptx.wirelesstransfer.gui.PTMainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_weight="1"
+        android:background="@color/ptx_title_background"
+        android:baselineAligned="false"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivWirelessTransfer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ftp_title_bg_2048"/>
+
+        <ImageView
+            android:id="@+id/ivftp_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-20dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ftp_text"/>
+
+        <TextView
+            android:id="@+id/tvWifiStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivftp_text"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@mipmap/ftp_icon_wifi"
+            android:drawablePadding="5dp"
+            android:ellipsize="middle"
+            android:gravity="center"
+            android:maxLines="1"
+            android:maxWidth="235dp"
+            android:text="012345678998765432103"
+            android:textColor="#ffffff"
+            android:textSize="18sp"/>
+        <!--android:maxLength="20"-->
+    </RelativeLayout>
+
+    <Space
+        android:id="@+id/space1"
+        android:layout_width="1dp"
+        android:layout_height="20dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="226dp"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_weight="0.1"/>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:minWidth="215dp">
+
+            <ImageView
+                android:id="@+id/ivImageMid"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/ftp_pic_succeeded"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flAddr"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="2"
+            android:background="@android:color/transparent"
+            android:minWidth="455dp"
+            android:visibility="visible">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:src="@drawable/ftp_inpot_bg"
+                />
+
+            <TextView
+                android:id="@+id/tvFtpAddr"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/margin_hori_addr_left"
+                android:layout_marginRight="@dimen/margin_hori_addr"
+                android:background="@drawable/ptx_shape_ftp_addr_background"
+                android:gravity="center_vertical|left"
+                android:maxLines="1"
+                android:paddingBottom="10dp"
+                android:paddingLeft="@dimen/padding_hori_addr"
+                android:paddingTop="10dp"
+                android:text="ftp://192.168.101.101:21261"
+                android:textColor="#2196F3"
+                android:textSize="28sp"
+                android:textStyle="bold"/><!--ptx_shape_ftp_addr_background-->
+        </FrameLayout>
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_weight="0.1"/>
+    </LinearLayout>
+
+    <Space
+        android:id="@+id/space2"
+        android:layout_width="1dp"
+        android:layout_height="20dp"
+        android:layout_weight="0.5"/>
+
+    <TextView
+        android:id="@+id/tvNotice"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="@string/ptx_notice_first"
+        android:textColor="@color/ptx_notice"
+        android:textSize="20sp"/>
+
+
+    <Space
+        android:id="@+id/space3"
+        android:layout_width="1dp"
+        android:layout_height="20dp"
+        android:layout_weight="0.5"/>
+
+    <TextView
+        android:id="@+id/btnSwitch"
+        android:layout_width="400dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/ptx_shape_button_background_blue"
+        android:elevation="0dp"
+        android:gravity="center"
+        android:text="@string/ptx_turn_off"
+        android:textColor="@color/ptx_title"
+        android:textSize="18sp"
+        android:translationZ="0dp"/>
+    <!--android:drawableLeft="@mipmap/notification"-->
+
+    <Space
+        android:id="@+id/space4"
+        android:layout_width="1dp"
+        android:layout_height="20dp"
+        android:layout_weight="1"/>
+</LinearLayout>

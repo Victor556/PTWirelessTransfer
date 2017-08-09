@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="ptx_title_background">#FF868686</color>
+    <color name="ptx_title">#FFFFFFFF</color>
+    <color name="ptx_largest_background">#FFFFFF</color>
+    <color name="ptx_notice">@color/ptx_black</color>
+    <color name="ptx_black">#DE000000</color>
+    <color name="ptx_gray_stroke">#124f4f4f</color>
+    <color name="ptx_white">#ffffff</color>
+    <color name="ptx_ftp_addr_background">#FFE6EEE7</color>
+    <color name="ptx_button_background_blue">#2196f3</color>
+    <color name="ptx_button_background_red">#F44336</color>
+    <color name="ptx_button_background_blue_press">#1f8de4</color>
+    <color name="ptx_button_background_red_press">#e43e32</color>
+
+    <dimen name="margin_hori_addr_left">55dp</dimen>
+    <dimen name="margin_hori_addr">50dp</dimen>
+    <dimen name="padding_hori_addr">30dp</dimen>
+
+</resources>
